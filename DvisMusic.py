@@ -221,7 +221,7 @@ async def main():
     LOGGER.info("✅ PyTgCalls Started.")
     await asyncio.sleep(1)
     LOGGER.info("✅ Sucessfully Hosted Your Bot !!")
-    LOGGER.info("✅ Now Do Visit: @net_pro_max !!")
+    LOGGER.info("✅ Now Do Visit: @NOBITA_ALL_BOT !!")
     await idle()
 
 
@@ -329,13 +329,6 @@ async def add_served_user(user_id: int):
         return
     return await usersdb.insert_one({"user_id": user_id})
 
-# Extra
-async def fetch_song(name):
-    async with aiohttp.ClientSession() as s:  # This API Made By @C0DE_SEARCH On Telegram
-        async with s.get(f"https://song-teleservice.vercel.app/song?songName={name.replace(' ', '%20')}") as r: 
-            return await r.json() if r.status == 200 else None
-
-
 
 # Callback & Message Queries
 
@@ -357,7 +350,7 @@ async def start_message_private(client, message):
 │❍ • ɴᴏ ʟᴀɢs + ɴᴏ ᴀᴅs •‍
 │❍ • 24x7 ᴏɴʟɪɴᴇ sᴜᴘᴘᴏʀᴛ •‍
 ├───────────────────⦿‍
-│  Mᴀᴅᴇ Bʏ [𝖮ᴡ፝֠֩𝛈𝛆ʀ](https://t.me/TaitanXBot)
+│           [✰ 𝖮ᴡ፝֠֩𝛈𝛆ʀ  ✰](https://t.me/ll_SIZUKA_BOT_MAKER_II)
 ╰───────────────────⦿"""
     buttons = InlineKeyboardMarkup(
         [
@@ -369,7 +362,7 @@ async def start_message_private(client, message):
             ],
             [
                 InlineKeyboardButton(
-                    text="💌 𝖧ᴇʟᴘ & 𝖢ᴏᴍᴍᴀɴᴅs 💌",
+                    text="💌 𝖧ᴇʟᴘ $ 𝖢ᴏᴍᴍᴀɴᴅs 💌",
                     callback_data="help_command_list",
                 )
             ],
@@ -398,7 +391,7 @@ async def start_message_private(client, message):
 @bot.on_callback_query(rgx("help_command_list"))
 async def open_command_list_alert(client, query):
     caption = """
-♡━━━━━━━━━━━━⚆ _ ⚆━━━━━━━━━━━━━♡
+♡━━━━━━━━━━━━━━⚆ _ ⚆━━━━━━━━━━━━━♡ 
 **✫ ᴀʟʟ ᴍᴇᴍʙᴇʀs ᴄᴀɴ ᴜsᴇ :**
   ● /play - Stream Only Audio On VC.
   ● /vplay - Stream Audio With Video.
@@ -411,12 +404,12 @@ async def open_command_list_alert(client, query):
 
 **Note:** All Commands Will Work
 Only in Channels/Groups.
-♡━━━━━━━━━━━━⚆ _ ⚆━━━━━━━━━━━━━♡
+♡━━━━━━━━━━━━━━⚆ _ ⚆━━━━━━━━━━━━━♡
 
 **✫ ᴏɴʟʏ ғᴏʀ ᴏᴡɴᴇʀ :**
-   ● /ping - Oᴡɴᴇʀs Kɴᴏᴡ
-   ● /stats - Oᴡɴᴇʀs Kɴᴏᴡ
-   ● /gcast - Oᴡɴᴇʀs Kɴᴏᴡ
+   ● /ping - Oᴡɴᴇʀs Nᴏᴡ
+   ● /stats - Oᴡɴᴇʀs Nᴏᴡ
+   ● /gcast - Oᴡɴᴇʀs Nᴏᴡ
 
 """
     buttons = InlineKeyboardMarkup(
@@ -447,13 +440,13 @@ async def back_to_home_menu(client, query):
 │❍ • ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs •‍
 ├───────────────────⦿‍
 │❍ • ᴀ ғᴀsᴛ & ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ‍
-│  ʙᴏᴛ ᴡɪᴛʜ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs‍
+│     ʙᴏᴛ ᴡɪᴛʜ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs‍
 │❍ • ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ + ᴠɪᴅᴇᴏ •‍
 │❍ • ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ᴍᴜsɪᴄ sᴏᴜɴᴅ •‍
 │❍ • ɴᴏ ʟᴀɢs + ɴᴏ ᴀᴅs •‍
 │❍ • 24x7 ᴏɴʟɪɴᴇ sᴜᴘᴘᴏʀᴛ •‍
 ├───────────────────⦿‍
-│  Mᴀᴅᴇ Bʏ [𝖮ᴡ፝֠֩𝛈𝛆ʀ](https://t.me/TaitanXBot)
+│               [✰ 𝖮ᴡ፝֠֩𝛈𝛆ʀ  ✰](https://t.me/ll_SIZUKA_BOT_MAKER_II)
 ╰───────────────────⦿"""
     buttons = InlineKeyboardMarkup(
         [
@@ -465,8 +458,8 @@ async def back_to_home_menu(client, query):
             ],
             [
                 InlineKeyboardButton(
-                    text="💌 𝖧ᴇʟᴘ & 𝖢ᴏᴍᴍᴀɴᴅs 💌",
-                    callback_data="help_command_list",
+                    text="ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs",
+                    callback_data="open_command_list",
                 )
             ],
         ]
@@ -761,7 +754,7 @@ async def stream_logger(
 **❍ Cʜᴀᴛ Lɪɴᴋ:** {chat_link}
 **❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {requested_by}
 
-❍ 𝖩ᴏɪɴ ➛ **[sᴜᴘᴘᴏꝛᴛ](https://t.me/TaitanXBot)**"""
+❍ 𝖩ᴏɪɴ ➛ **[sᴜᴘᴘᴏꝛᴛ](https://t.me/NOBITA_ALL_BOT)**"""
             else:
                 caption = f"""**✅ 𝐒ᴛᴀʀᴛᴇᴅ 𝐒ᴛʀᴇᴀᴍɪɴɢ 𝐎ɴ 𝐕ᴄ.**
 
@@ -772,7 +765,7 @@ async def stream_logger(
 **❍ Cʜᴀᴛ Lɪɴᴋ:** {chat_link}
 **❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {requested_by}
 
-❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ @NishaMusic_Bot"""
+❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ @Aarvi_Music_xBot"""
             try:
                 await bot.send_photo(LOG_GROUP_ID, photo=thumbnail, caption=caption)
             except Exception:
@@ -832,7 +825,7 @@ async def change_stream(chat_id):
 **❍ Sᴛʀᴇᴀᴍ Tʏᴘᴇ ➥ ** {stream_type}
 **❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➥ ** {requested_by}
 
-❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ @NishaMusic_Bot"""
+❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ @Aarvi_Music_xBot"""
     buttons = InlineKeyboardMarkup(
         [
             [
@@ -1038,7 +1031,7 @@ async def stream_audio_or_video(client, message):
 **❍ Sᴛʀᴇᴀᴍ Tʏᴘᴇ ➥ ** {stream_type}
 **❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➥ ** {requested_by}
 
-❍ 𝖩ᴏɪɴ ➛ **[sᴜᴘᴘᴏꝛᴛ](https://t.me/TaitanXBot)**"""
+❍ 𝖩ᴏɪɴ ➛ **[sᴜᴘᴘᴏꝛᴛ](https://t.me/NOBITA_ALL_BOT)**"""
                 await bot.send_photo(chat_id, thumbnail, caption, reply_markup=buttons)
                 await stream_logger(
                     chat_id, user, title, duration, stream_type, thumbnail, position
@@ -1147,7 +1140,7 @@ async def stream_audio_or_video(client, message):
 **❍ Sᴛʀᴇᴀᴍ Tʏᴘᴇ ➥ ** {stream_type}
 **❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➥ ** {requested_by}
 
-❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ @NishaMusic_Bot"""
+❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ @Aarvi_Music_xBot"""
                 await bot.send_photo(chat_id, thumbnail, caption, reply_markup=buttons)
                 await stream_logger(
                     chat_id, user, title, duration, stream_type, thumbnail
@@ -1315,38 +1308,7 @@ async def check_sping(client, message):
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     m = await message.reply_text("**🤖 𝐏ɪɴɢ...!!**")
-    await m.edit(f"**🤖 𝐏ɪɴɢᴇᴅ...!!\n𝐋ᴀᴛᴇɴᴄʏ:** `{ms}` ms")
-
-
-@bot.on_message(cdx("song") & ~pyrofl.bot)
-async def handle_song(client, message):
-    song_name = message.text.split(" ", 1)[1] if len(message.command) > 1 else None
-    if not song_name:
-        return await message.reply("𝐏ʟᴇᴀ𝐬ᴇ 𝐏ʀᴏᴠɪᴅᴇ 𝐀 𝐒ᴏɴɢ 𝐍ᴀᴍᴇ...😒")
-
-    song_info = await fetch_song(song_name)  # Await the coroutine
-    if not song_info:
-        return await message.reply(f"'{song_name}' 𝐍ᴏᴛ 𝐅ᴏᴜɴᴅ...❌")
-
-    filename = f"{song_info['trackName']}.mp3"
-    download_url = song_info['downloadLink']
-
-    # File download logic
-    async with aiohttp.ClientSession() as session:
-        async with session.get(download_url) as resp:
-            with open(filename, "wb") as file:
-                while chunk := await resp.content.read(1024):
-                    file.write(chunk)
-
-    # Caption with your requested text
-    caption = (f"""❖ sᴏɴɢ ɴᴀᴍᴇ ➥ {song_info['trackName']}\n● ᴀʟʙᴜᴍ ➥ {song_info['album']}\n● ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ ➥ {song_info['releaseDate']}\n● ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➥ {message.from_user.mention}\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ @NishaMusic_Bot""")
-
-    # Send audio and cleanup
-    try:
-        await message.reply_audio(audio=open(filename, "rb"), caption=caption)
-    finally:
-        os.remove(filename)
-
+    await m.edit(f"**🤖 𝐏ɪɴɢᴇᴅ...!!\n𝐋ᴀᴛᴇɴᴄʏ:** `{ms}` ms") 
 
 
 @bot.on_message(cdx(["repo", "repository"]) & ~pyrofl.bot)
@@ -1364,22 +1326,22 @@ async def git_repo_link(client, message):
 │❍ • ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs •‍
 ├───────────────────⦿‍
 │❍ • ᴀ ғᴀsᴛ & ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ‍
-│  ʙᴏᴛ ᴡɪᴛʜ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs‍
+│     ʙᴏᴛ ᴡɪᴛʜ ᴀᴡᴇsᴏᴍᴇ ғᴇᴀᴛᴜʀᴇs‍
 │❍ • ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ + ᴠɪᴅᴇᴏ •‍
 │❍ • ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ᴍᴜsɪᴄ sᴏᴜɴᴅ •‍
 │❍ • ɴᴏ ʟᴀɢs + ɴᴏ ᴀᴅs •‍
 │❍ • 24x7 ᴏɴʟɪɴᴇ sᴜᴘᴘᴏʀᴛ •‍
 ├───────────────────⦿‍
-│  Mᴀᴅᴇ Bʏ [𝖮ᴡ፝֠֩𝛈𝛆ʀ](https://t.me/TaitanXBot)
+│        [✰ 𝖮ᴡ፝֠֩𝛈𝛆ʀ  ✰](https://t.me/ll_SIZUKA_BOT_MAKER_II)
 ╰───────────────────⦿"""
     else:
-        caption = f"**➻ Hello, {mention}. Koi Repo Nhi Melega Bhak Bsdk 🤡**"
+        caption = f"**➻ Hello, {mention}.**"
     buttons = InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                    text="𝖮ᴡ፝֠֩𝛈𝛆ʀ",
-                    url="https://t.me/TaitanXBot",
+                    text="🌺 𝐓𝐎𝐂𝐇 𝐊𝐑𝐎 𝐁𝐄𝐓𝐀 🦋",
+                    url="https://files.catbox.moe/7rmgyr.mp4",
                 )
             ],
             [
@@ -1439,7 +1401,7 @@ async def update_repo_latest(client, message):
         f"{nrs.text}\n\nBot was updated successfully! Now, wait for 1 - 2 mins until the bot reboots!"
     )
     os.system("pip3 install -r requirements.txt --force-reinstall")
-    os.system(f"kill -9 {os.getpid()} && python3 -m DvisMusic")
+    os.system(f"kill -9 {os.getpid()} && python3 -m DvisMusicr")
     sys.exit()
     return
 
@@ -1450,12 +1412,12 @@ async def check_bot_stats(client, message):
     except:
         pass
     photo = START_IMAGE_URL
-    caption = "**⏤͟͞TAITAN MUSIC STATS ༗**"
+    caption = "ɴᴏʙɪᴛᴀ ᴍᴜꜱɪᴄ ꜱᴛᴀᴛꜱ"
     buttons = InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                    text="🐬 Mʏ Sᴛᴀᴛs",
+                    text="🐬 мʏ ѕᴛᴀᴛѕ",
                     callback_data="check_stats",
                 )
             ],
@@ -1495,7 +1457,7 @@ async def check_total_stats(client, query):
 🔴 Sᴇʀᴠᴇᴅ Cʜᴀᴛs ➥ {served_chats}
 🔵 Served Users ➥ {served_users}
 
-✿⋟ Tᴏᴛᴀʟ Aᴄᴛɪᴠᴇ Cʜᴀᴛs [{activ_chats}]
+🦋 𝐓ᴏᴛᴀʟ 𝐀ᴄᴛɪᴠᴇ 𝐂ʜᴀᴛs [{activ_chats}]
 ✿⋟ Aᴜᴅɪᴏ Sᴛʀᴇᴀᴍ ➥ {audio_chats}
 ✿⋟ Vɪᴅᴇᴏ Sᴛʀᴇᴀᴍ ➥ {video_chats}""",
             show_alert=True
